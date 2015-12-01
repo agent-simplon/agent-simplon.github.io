@@ -34,6 +34,10 @@ background-attachment:scroll;
   padding-right: 500px;
 }
 
+header {
+  margin-top: 0;
+
+}
 
 body{
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
