@@ -38,6 +38,10 @@ background-attachment:scroll;
 
 }
 
+header {
+  margin-top: 0;
+
+}
 
 body{
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -127,4 +131,28 @@ figure:nth-child(8) {
   100% {
     opacity: 1;
   }
+}
+
+
+
+/*Pages CV*/
+
+
+html, body.cv {
+  height: 100%;
+  margin: 20px;
+  width:100%;
+  background-color:black;
+  color:white;
+}
+
+body.cv h1, body.cv h3 {
+  text-align: center;
+  font-family: 02;
+}
+body.cv h4 {
+  position: relative;
+	height: 50px;
+	clear: both;
+  text-align: center;
 }
