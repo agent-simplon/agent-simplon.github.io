@@ -33,6 +33,10 @@ background-attachment:scroll;
   padding-left: 500px;
   padding-right: 500px;
 }
+.barre{
+  margin: 0;
+
+}
 
 
 body{
@@ -59,7 +63,7 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   position: absolute;
   top: 0;
   color: #fff;
-  background: rgba(0,0,0, .3);
+  background: blue;
   font-size: .8em;
   padding: 8px 12px;
   opacity: 0;
