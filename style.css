@@ -117,6 +117,9 @@ body.cv h4 {
 }
 
 /*02*/
+.solide{
+    box-sizing: border-box;
+}
 
 .left {
   margin-left: -100px;
