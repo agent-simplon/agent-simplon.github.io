@@ -32,7 +32,6 @@ h1 {
 header {
   margin-top: 0;
 }
-<<<<<<< HEAD
 /*test */
 
 body{
@@ -96,11 +95,6 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 }
 /*test*/
 
-<<<<<<< HEAD
-
-
-/*Pages CV*/
-
 
 html, body.cv {
   height: 100%;
@@ -110,12 +104,6 @@ html, body.cv {
   color:white;
 }
 
-=======
-/*01*/
-
-html, body.cv {
-  }
->>>>>>> 9714a0a118a6f399557e450c73f0d9946e731c00
 body.cv h1, body.cv h3 {
   color: #D2B48C;
   text-align: center;
@@ -128,25 +116,10 @@ body.cv h4 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-#cv-widgets-container {
-    width: 72%;
-    margin-left: 6%;
-    background: #373737;
-    border-top: 2px solid #444;
-    border-bottom: 2px solid black;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    float: left;
-    position: relative;
-    min-height: 840px;
-    padding: 20px;
-
 /*02*/
 
 .left {
-  margin-left: -200px;
+  margin-left: -100px;
 }
 .photo {
   position: absolute;
@@ -182,7 +155,7 @@ body.cv h4 {
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: #2a2a2a;
- border-radius: 10px;
+  border-radius: 10px;
 }
 .pres {
   position: absolute;
@@ -209,9 +182,8 @@ body.cv h4 {
   border-radius: 10px;
 }
 #xp {
-  width: 90%;
-  height: 1360px;
-  margin-left: 30%;
+  width: 900px;
+  box-sizing: border-box;
   background: #373737;
   border-top: 2px solid #444;
   border-bottom: 2px solid black;
@@ -267,6 +239,7 @@ body.cv h4 {
 }
 .compt {
   position: relative;
+  border-radius: 20px;
   width: 58%;
   margin-right: 2%;
   float: left;
