@@ -123,7 +123,8 @@ figure:nth-child(8) {
 
 /*01*/
 
-html, body.cv {}
+html, body.cv {
+  }
 body.cv h1, body.cv h3 {
   color: #D2B48C;
   text-align: center;
@@ -151,8 +152,6 @@ body.cv h4 {
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: #2a2a2a;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 .cont {
@@ -165,8 +164,6 @@ body.cv h4 {
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: #2a2a2a;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 .sit {
@@ -179,9 +176,7 @@ body.cv h4 {
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: #2a2a2a;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+ border-radius: 10px;
 }
 .pres {
   position: absolute;
@@ -193,8 +188,6 @@ body.cv h4 {
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: #2a2a2a;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 .lien {
@@ -207,22 +200,15 @@ body.cv h4 {
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: #2a2a2a;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 #xp {
   width: 90%;
   height: 1360px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   margin-left: 30%;
   background: #373737;
   border-top: 2px solid #444;
   border-bottom: 2px solid black;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
   float: left;
   position: relative;
@@ -240,8 +226,6 @@ body.cv h4 {
 }
 .tra1 {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
@@ -249,8 +233,6 @@ body.cv h4 {
 }
 .tra2 {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
@@ -258,8 +240,6 @@ body.cv h4 {
 }
 .tra3 {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
@@ -267,8 +247,6 @@ body.cv h4 {
 }
 .loisir {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
@@ -276,8 +254,6 @@ body.cv h4 {
 }
 .forma {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
@@ -292,8 +268,6 @@ body.cv h4 {
 }
 .aki {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 150px 0 20px 0;
   padding: 15px;
@@ -302,11 +276,8 @@ body.cv h4 {
 }
 .port {
   background: white;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
   border-radius: 20px;
   margin: 150px 0 20px 0;
   padding: 15px;
   height: 400px;
-  width:
-}
+  }
