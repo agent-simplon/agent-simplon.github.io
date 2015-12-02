@@ -96,11 +96,12 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 /*test*/
 
 
+
 html, body.cv {
   height: 100%;
   margin: 20px;
   width:100%;
-  background-color:black;
+  background-color:grey;
   color:white;
 }
 
