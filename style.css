@@ -32,8 +32,10 @@ h1 {
 header {
   margin-top: 0;
 }
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+/*test */
+
+body{
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 .css-slideshow {
@@ -73,38 +75,9 @@ body {
   font-style: italic;
   margin: 0 auto;
 }
-.css-slideshow-attr a {
-  color: #666;
-}
-.css-slideshow figure {
-  opacity: 0;
-}
-figure:nth-child(1) {
-  animation: xfade 48s 42s infinite;
-}
-figure:nth-child(2) {
-  animation: xfade 48s 36s infinite;
-}
-figure:nth-child(3) {
-  animation: xfade 48s 30s infinite;
-}
-figure:nth-child(4) {
-  animation: xfade 48s 24s infinite;
-}
-figure:nth-child(5) {
-  animation: xfade 48s 18s infinite;
-}
-figure:nth-child(6) {
-  animation: xfade 48s 12s infinite;
-}
-figure:nth-child(7) {
-  animation: xfade 48s 6s infinite;
-}
-figure:nth-child(8) {
-  animation: xfade 48s 0s infinite;
-}
-@keyframes xfade {
-  0% {
+
+@keyframes xfade{
+  0%{
     opacity: 1;
   }
   10.5% {
@@ -120,14 +93,21 @@ figure:nth-child(8) {
     opacity: 1;
   }
 }
+/*test*/
 
-/*01*/
 
-html, body.cv {}
+html, body.cv {
+  height: 100%;
+  margin: 20px;
+  width:100%;
+  background-color:black;
+  color:white;
+}
+
 body.cv h1, body.cv h3 {
   color: #D2B48C;
   text-align: center;
-  font-family: ParmaPetit;
+  font-family: 02;
 }
 body.cv h4 {
   position: relative;
@@ -137,6 +117,9 @@ body.cv h4 {
 }
 
 /*02*/
+.solide{
+    box-sizing: border-box;
+}
 
 .left {
   margin-left: -100px;
