@@ -1,19 +1,15 @@
-body {
-  background-image: linear-gradient(to right,black,white);
-}
-
 h1 {
   font-size: 60px;
   text-align: center;
 }
 .jerome {
   position: fixed;
-padding-left: 400px;
-background-attachment:scroll;
+  padding-left: 400px;
+  background-attachment: scroll;
 }
 .abdel {
   position: fixed;
-   padding-left: 100px;
+  padding-left: 100px;
 }
 .nadege {
   position: fixed;
@@ -33,74 +29,52 @@ background-attachment:scroll;
   padding-left: 500px;
   padding-right: 500px;
 }
-
 header {
   margin-top: 0;
-
 }
+<<<<<<< HEAD
 /*test */
 
 body{
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
-.css-slideshow{
+.css-slideshow {
   position: relative;
   max-width: 495px;
   height: 370px;
   margin: 5em auto .5em auto;
 }
-.css-slideshow figure{
+.css-slideshow figure {
   margin: 0;
   max-width: 495px;
   height: 370px;
   background: #000;
   position: absolute;
 }
-.css-slideshow img{
+.css-slideshow img {
   box-shadow: 0 0 2px #666;
 }
-.css-slideshow figcaption{
+.css-slideshow figcaption {
   position: absolute;
   top: 0;
   color: #fff;
-  background: rgba(0,0,0, .3);
+  background: rgba(0, 0, 0, .3);
   font-size: .8em;
   padding: 8px 12px;
   opacity: 0;
   transition: opacity .5s;
 }
-.css-slideshow:hover figure figcaption{
+.css-slideshow:hover figure figcaption {
   transition: opacity .5s;
   opacity: 1;
 }
-.css-slideshow-attr{
+.css-slideshow-attr {
   max-width: 495px;
   text-align: right;
   font-size: .7em;
   font-style: italic;
-  margin:0 auto;
-}
-.css-slideshow-attr a{
-  color: black;
-}
-.css-slideshow figure{
-  opacity:0;
-}
-figure:nth-child(1) {
-  animation: xfade 48s 42s infinite;
-}
-figure:nth-child(2) {
-  animation: xfade 48s 36s infinite;
-}
-figure:nth-child(3) {
-  animation: xfade 48s 30s infinite;
-}
-figure:nth-child(4) {
-  animation: xfade 48s 24s infinite;
-}
-figure:nth-child(5) {
-  animation: xfade 48s 18s infinite;
+  margin: 0 auto;
 }
 
 @keyframes xfade{
@@ -110,7 +84,7 @@ figure:nth-child(5) {
   10.5% {
     opacity: 1;
   }
-  12.5%{
+  12.5% {
     opacity: 0;
   }
   98% {
@@ -122,6 +96,7 @@ figure:nth-child(5) {
 }
 /*test*/
 
+<<<<<<< HEAD
 
 
 /*Pages CV*/
@@ -135,13 +110,180 @@ html, body.cv {
   color:white;
 }
 
+=======
+/*01*/
+
+html, body.cv {
+  }
+>>>>>>> 9714a0a118a6f399557e450c73f0d9946e731c00
 body.cv h1, body.cv h3 {
+  color: #D2B48C;
   text-align: center;
   font-family: 02;
 }
 body.cv h4 {
   position: relative;
-	height: 50px;
-	clear: both;
+  height: 50px;
+  clear: both;
   text-align: center;
+}
+
+<<<<<<< HEAD
+#cv-widgets-container {
+    width: 72%;
+    margin-left: 6%;
+    background: #373737;
+    border-top: 2px solid #444;
+    border-bottom: 2px solid black;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    min-height: 840px;
+    padding: 20px;
+
+/*02*/
+
+.left {
+  margin-left: -200px;
+}
+.photo {
+  position: absolute;
+  float: left;
+  padding: 120px 110px 150px;
+  margin-top: 50px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+  border-radius: 10px;
+}
+.cont {
+  position: absolute;
+  float: left;
+  padding: 10px 110px 150px;
+  margin-top: 350px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+  border-radius: 10px;
+}
+.sit {
+  position: absolute;
+  float: left;
+  padding: 60px 110px 150px;
+  margin-top: 540px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+ border-radius: 10px;
+}
+.pres {
+  position: absolute;
+  float: left;
+  padding: 120px 110px 150px;
+  margin-top: 780px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+  border-radius: 10px;
+}
+.lien {
+  position: absolute;
+  float: left;
+  padding: 40px 110px 50px;
+  margin-top: 1080px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+  border-radius: 10px;
+}
+#xp {
+  width: 90%;
+  height: 1360px;
+  margin-left: 30%;
+  background: #373737;
+  border-top: 2px solid #444;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  float: left;
+  position: relative;
+  min-height: 840px;
+  padding-left: 20px;
+  margin-top: 48px;
+  margin-bottom: 50px;
+}
+.exper {
+  position: relative;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
+.tra1 {
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.tra2 {
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.tra3 {
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.loisir {
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.forma {
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.compt {
+  position: relative;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
+.aki {
+  background: white;
+  border-radius: 20px;
+  margin: 150px 0 20px 0;
+  padding: 15px;
+  height: 400px;
+  width: 400px;
+}
+.port {
+  background: white;
+  border-radius: 20px;
+  margin: 150px 0 20px 0;
+  padding: 15px;
+  height: 400px;
 }
