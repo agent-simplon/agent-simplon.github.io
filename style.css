@@ -155,3 +155,20 @@ body.cv h4 {
 	clear: both;
   text-align: center;
 }
+
+#cv-widgets-container {
+    width: 72%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 6%;
+    background: #373737;
+    border-top: 2px solid #444;
+    border-bottom: 2px solid black;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    min-height: 840px;
+    padding: 20px;
