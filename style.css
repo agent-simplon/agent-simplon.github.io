@@ -139,7 +139,7 @@ body.cv h4 {
 /*02*/
 
 .left {
-  margin-left: -200px;
+  margin-left: -100px;
 }
 .photo {
   position: absolute;
@@ -202,10 +202,8 @@ body.cv h4 {
   border-radius: 10px;
 }
 #xp {
-  width: 90%;
-  height: 1360px;
+  width: 900px;
   box-sizing: border-box;
-  margin-left: 30%;
   background: #373737;
   border-top: 2px solid #444;
   border-bottom: 2px solid black;
