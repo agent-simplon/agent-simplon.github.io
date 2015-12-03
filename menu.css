@@ -100,20 +100,3 @@ body {
 .display {
     visibility: visible;
 }
-
-.presentation-equipe {
-  text-align: center;
-  vertical-align: middle;
-  color: black;
-}
-
-.left {
-  position: absolute;
-  left: -30px;
-  top: 50px;
-}
-.right {
-  position: absolute;
-  left: 100px;
-  top: 50px;
-}
