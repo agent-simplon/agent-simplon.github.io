@@ -23,13 +23,13 @@ h1 {
   position: fixed;
   padding-left: 700px;
 }
-.presentation{
+.presentation {
   font-size: 20px;
   text-align: center;
   width: 960px;
   margin: 500px auto;
 }
-header{
+header {
   margin-top: 0;
 }
 
@@ -76,96 +76,83 @@ body {
   font-style: italic;
   margin: 0 auto;
 }
-
 .meni {
   font-size: 10px;
   margin-top: 15%;
-  text-align:center;
-position: relative;
-
+  text-align: center;
+  position: relative;
 }
-
 .profil {
-    background-color: #bfbfbf;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  background-color: #bfbfbf;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
 .profil + [class$="profil"] {
-    visibility: visible;
+  visibility: visible;
 }
-
 .profil2 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: -55%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: -55%;
+  visibility: hidden;
 }
-
 [class*="profil"]:hover {
-    box-shadow: 1px 1px 12px #071E1B;
+  box-shadow: 1px 1px 12px #071E1B;
 }
-
 .profil3 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -40%;
-    left: -30%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: -30%;
+  visibility: hidden;
 }
 .profil3-bis {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -60%;
-    left: 25%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -60%;
+  left: 25%;
+  visibility: hidden;
 }
-
 .profil4 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -40%;
-    left: 80%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: 80%;
+  visibility: hidden;
 }
-
 .profil5 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: 105%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 105%;
+  visibility: hidden;
 }
-
 .display {
-    visibility: visible;
+  visibility: visible;
 }
-
-
-@keyframes xfade{
-  0%{
+@keyframes xfade {
+  0% {
     opacity: 1;
   }
   10.5% {
@@ -184,14 +171,11 @@ position: relative;
 
 /*cv2Jérôme*/
 
-
-html, body.cv  {
+html, body.cv {
   height: 100%;
-
-  width:100%;
-  color:white;
+  width: 100%;
+  color: white;
 }
-
 body.cv h1, body.cv h3, body.cv h2 {
   margin-top: 0;
   color: #D2B48C;
@@ -204,24 +188,19 @@ body.cv h4 {
   clear: both;
   text-align: center;
 }
-
-
 body.cv p {
   text-align: center;
   color: rgba(216, 164, 95, 0.73);
-
 }
-.solide{
-    box-sizing: border-box;
-    http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
+.solide {
+  box-sizing: border-box;
+  http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
 }
 .backcv1 {
   background-image: url("http://orig15.deviantart.net/d150/f/2012/098/7/6/secret_agent_pony_by_regolithx-d4vgc93.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
-
 .left {
   margin-left: -100px;
 }
@@ -234,16 +213,14 @@ body.cv p {
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background:rgba(128, 0, 0, 0.21);
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
   height: 250px;
   width: 330px;
-  }
-  .maphoto {
-    padding: 5px 55px 3px;
-
-  }
-
+}
+.maphoto {
+  padding: 5px 55px 3px;
+}
 .cont {
   position: absolute;
   float: left;
@@ -281,7 +258,6 @@ body.cv p {
   border-radius: 10px;
   width: 330px;
 }
-
 #xp {
   width: 900px;
   box-sizing: border-box;
@@ -362,23 +338,16 @@ body.cv p {
   height: 400px;
   width: 400px;
 }
+
 /*fincv2*/
 
 
 /*cv Ahmed*/
 
-
-
-
-
-body.cev{
-    color: white;
-  background:url( "http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
+body.cev {
+  color: white;
+  background: url("http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
 }
-
-
-
-
 .lift {
   margin-left: -100px;
 }
@@ -393,222 +362,201 @@ body.cev{
   margin-bottom: 20px;
   background-color: #1D1515;
   border-radius: 10px;
-  }
+}
+.conte {
+  position: absolute;
+  float: left;
+  padding: 38px;
+  margin-top: 350px;
+  margin-left: 10%;
+  color: white;
+  border-top: 2px solid green;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background-color: #1D1515;
+  border-radius: 10px;
+}
+.set {
+  position: absolute;
+  float: left;
+  padding: 60px 30px 150px;
+  margin-top: 610px;
+  color: white;
+  border-top: 2px solid green;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background-color: #1D1515;
+  border-radius: 10px;
+}
+.pris {
+  position: absolute;
+  float: left;
+  padding: 120px 95px 150px;
+  margin-top: 905px;
+  color: white;
+  border-top: 2px solid green;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background-color: #1D1515;
+  border-radius: 10px;
+}
+#xep {
+  width: 900px;
+  box-sizing: border-box;
+  background-color: #1D1515;
+  border-top: 2px solid green;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  float: left;
+  position: relative;
+  min-height: 810px;
+  padding-left: 20px;
+  margin-top: 48px;
+  margin-bottom: 50px;
+}
+.trai1 {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.trai2 {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.trai3 {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.expir {
+  color: white;
+  position: relative;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
+.lois {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.formi {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 210px;
+}
+.compe {
+  color: black;
+  position: relative;
+  border-radius: 20px;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
+.akis {
+  background: white;
+  border-radius: 20px;
+  margin: 150px 0 20px 0;
+  padding: 15px;
+  height: 400px;
+  width: 400px;
+}
 
-  .conte {
-    position: absolute;
-    float: left;
-    padding: 38px;
-    margin-top: 350px;
-    margin-left: 10%;
-    color: white;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background-color: #1D1515;
-    border-radius: 10px;
-  }
-
-
-  .set {
-    position: absolute;
-    float: left;
-    padding: 60px 30px 150px;
-    margin-top: 610px;
-    color: white;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background-color: #1D1515;
-    border-radius: 10px;
-  }
-
-
-
-  .pris {
-    position: absolute;
-    float: left;
-    padding: 120px 95px 150px;
-    margin-top: 905px;
-    color: white;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background-color: #1D1515;
-    border-radius: 10px;
-  }
-
-
-  #xep {
-    width: 900px;
-    box-sizing: border-box;
-    background-color: #1D1515;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    border-radius: 10px;
-    float: left;
-    position: relative;
-    min-height: 810px;
-    padding-left: 20px;
-    margin-top: 48px;
-    margin-bottom: 50px;
-  }
-
-
-
-  .trai1 {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-
-
-
-  .trai2 {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-  .trai3 {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-
-
-
-  .expir {
-    color: white;
-    position: relative;
-    width: 58%;
-    margin-right: 2%;
-    float: left;
-    min-height: 1px;
-  }
-
-
-  .lois {
-    color: black;
-    background:white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-  .formi {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 210px;
-  }
-
-
-
-  .compe {
-    color: black;
-    position: relative;
-    border-radius: 20px;
-    width: 58%;
-    margin-right: 2%;
-    float: left;
-    min-height: 1px;
-  }
-  .akis {
-    background: white;
-    border-radius: 20px;
-    margin: 150px 0 20px 0;
-    padding: 15px;
-    height: 400px;
-    width: 400px;
-  }
-  /*fincvamhed*/
+/*fincvamhed*/
 
 
 /*cvnadege*/
+
 body.cvnadege h3 body.cvnadege p {
   color: black;
 }
 body.cvnadege h1, body.cvnadege h2 {
-  color:#CA2DCE;
-  text-align:center;
+  color: #CA2DCE;
+  text-align: center;
 }
 .backcvnadege {
   background-image: url("http://img2.hebus.com/hebus_2008/05/11/preview/080511144251_73.jpg");
   color: black;
 }
 
-
 /*fin cvnadege*/
 
 
-
 /* cvadel */
+
 .omb {
   moz-box-shadow: 0px 5px 10px 0px #000000;
   -webkit-box-shadow: 0px 5px 10px 0px #000000;
   -o-box-shadow: 0px 5px 10px 0px #000000;
   box-shadow: 0px 5px 10px 0px #000000;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, Strength=10);
+  filter: progid: DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, Strength=10);
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 .ombin {
   -moz-box-shadow: inset -5px -5px 5px 0px #656565;
--webkit-box-shadow: inset -5px -5px 5px 0px #656565;
--o-box-shadow: inset -5px -5px 5px 0px #656565;
-box-shadow: inset -5px -5px 5px 0px #656565;
-filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, Strength=5);
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
+  -webkit-box-shadow: inset -5px -5px 5px 0px #656565;
+  -o-box-shadow: inset -5px -5px 5px 0px #656565;
+  box-shadow: inset -5px -5px 5px 0px #656565;
+  filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, Strength=5);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
-.tra3ombin{
+.tra3ombin {
   height: 250px;
 }
-.formaombin{
+.formaombin {
   height: 260px;
 }
-.sitomb{
-padding: 6px 30px 150px;
+.sitomb {
+  padding: 6px 30px 150px;
 }
-.contomb{
+.contomb {
   padding: 10px 20px;
 }
-.loisiromb{
+.loisiromb {
   height: 100px;
 }
-.nom{
-  text-shadow: 5px 2px #000000
-;
+.nom {
+  text-shadow: 5px 2px #000000;
 }
-.slyz{
+.slyz {
   background-image: url("http://kbsrush.files.wordpress.com/2011/12/i-love-music.jpg");
- background-repeat: no-repeat;
- background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-div.slyz p, div.slyz ul{
+div.slyz p, div.slyz ul {
   color: black;
   font-weight: bold;
 }
-div.slyz h3{
-  color:#330099;
+div.slyz h3 {
+  color: #330099;
 }
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
-.photomb{
+.photomb {
   padding: 5px 70px;
 }
+
 /* fin cv adel */
