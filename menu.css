@@ -37,9 +37,7 @@ body {
     transform: translate(-50%, -50%);
 }*/
 
-.profil + [class$="profil"] {
-    visibility: visible;
-}
+
 
 .profil2 {
     background-color: #A7B9B6;
@@ -101,4 +99,21 @@ body {
 
 .display {
     visibility: visible;
+}
+
+.presentation-equipe {
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+}
+
+.left {
+  position: absolute;
+  left: -30px;
+  top: 50px;
+}
+.right {
+  position: absolute;
+  left: 100px;
+  top: 50px;
 }
