@@ -26,17 +26,18 @@ h1 {
 .presentation{
   font-size: 20px;
   text-align: center;
-  width: 960px;
-  margin: 500px auto;
+  padding-top: 150px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 200px;
 }
 header{
   margin-top: 0;
 }
-
 /*test */
 
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+body{
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 .css-slideshow {
@@ -79,7 +80,7 @@ body {
 
 .meni {
   font-size: 10px;
-  margin-top: 15%;
+  margin-top: 20%;
   text-align:center;
 position: relative;
 
@@ -181,13 +182,12 @@ position: relative;
     opacity: 1;
   }
 }
+/*test*/
 
-/*cv2Jérôme*/
 
 
 html, body.cv  {
   height: 100%;
-
   width:100%;
   color:white;
 }
@@ -205,15 +205,15 @@ body.cv h4 {
   text-align: center;
 }
 
+/*02*/
 
 body.cv p {
   text-align: center;
-  color: rgba(216, 164, 95, 0.73);
+  color: #D2B48C;
 
 }
 .solide{
-    box-sizing: border-box;
-    http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
+    box-sizing: border-box;  http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
 }
 .backcv1 {
   background-image: url("http://orig15.deviantart.net/d150/f/2012/098/7/6/secret_agent_pony_by_regolithx-d4vgc93.png");
@@ -221,14 +221,13 @@ body.cv p {
   background-size: 100% 100%;
 }
 
-
 .left {
   margin-left: -100px;
 }
 .photo {
   position: absolute;
   float: left;
-  padding: 15px 15px 15px;
+  padding: 100px 110px 150px;
   margin-top: 50px;
   color: #909090;
   border-top: 2px solid #373737;
@@ -236,26 +235,14 @@ body.cv p {
   margin-bottom: 20px;
   background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
-  height: 250px;
-  width: 330px;
   }
   .maphoto {
-    padding: 5px 55px 3px;
-    
-
 
   }
-
-
-
-
-
-
-
 .cont {
   position: absolute;
   float: left;
-  padding: 10px 53px 60px;
+  padding: 10px 120px 150px;
   margin-top: 370px;
   color: #909090;
   border-top: 2px solid #373737;
@@ -267,7 +254,7 @@ body.cv p {
 .sit {
   position: absolute;
   float: left;
-  padding: 20px 30px 150px;
+  padding: 60px 30px 150px;
   margin-top: 610px;
   color: #909090;
   border-top: 2px solid #373737;
@@ -279,17 +266,27 @@ body.cv p {
 .pres {
   position: absolute;
   float: left;
-  padding: 20px 1px 150px;
-  margin-top: 950px;
+  padding: 120px 95px 150px;
+  margin-top: 905px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
-  width: 330px;
 }
-
+.lien {
+  position: absolute;
+  float: left;
+  padding: 40px 140px 50px;
+  margin-top: 1250px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: rgba(128, 0, 0, 0.21);
+  border-radius: 10px;
+}
 #xp {
   width: 900px;
   box-sizing: border-box;
@@ -370,179 +367,6 @@ body.cv p {
   height: 400px;
   width: 400px;
 }
-/*fincv2*/
-
-
-/*cv Ahmed*/
-
-
-
-
-
-body.cev{
-    color: white;
-  background:url( "http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
-}
-
-
-
-
-.lift {
-  margin-left: -100px;
-}
-.phito {
-  position: absolute;
-  float: left;
-  padding: 100px 110px 150px;
-  margin-top: 50px;
-  color: white;
-  border-top: 2px solid green;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
-  background-color: #1D1515;
-  border-radius: 10px;
-  }
-
-  .conte {
-    position: absolute;
-    float: left;
-    padding: 38px;
-    margin-top: 350px;
-    margin-left: 10%;
-    color: white;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background-color: #1D1515;
-    border-radius: 10px;
-  }
-
-
-  .set {
-    position: absolute;
-    float: left;
-    padding: 60px 30px 150px;
-    margin-top: 610px;
-    color: white;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background-color: #1D1515;
-    border-radius: 10px;
-  }
-
-
-
-  .pris {
-    position: absolute;
-    float: left;
-    padding: 120px 95px 150px;
-    margin-top: 905px;
-    color: white;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background-color: #1D1515;
-    border-radius: 10px;
-  }
-
-
-  #xep {
-    width: 900px;
-    box-sizing: border-box;
-    background-color: #1D1515;
-    border-top: 2px solid green;
-    border-bottom: 2px solid black;
-    border-radius: 10px;
-    float: left;
-    position: relative;
-    min-height: 810px;
-    padding-left: 20px;
-    margin-top: 48px;
-    margin-bottom: 50px;
-  }
-
-
-
-  .trai1 {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-
-
-
-  .trai2 {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-  .trai3 {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-
-
-
-  .expir {
-    color: white;
-    position: relative;
-    width: 58%;
-    margin-right: 2%;
-    float: left;
-    min-height: 1px;
-  }
-
-
-  .lois {
-    color: black;
-    background:white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 180px;
-  }
-  .formi {
-    color: black;
-    background: white;
-    border-radius: 20px;
-    margin: 80px 0 20px 0;
-    padding: 15px;
-    height: 210px;
-  }
-
-
-
-  .compe {
-    color: black;
-    position: relative;
-    border-radius: 20px;
-    width: 58%;
-    margin-right: 2%;
-    float: left;
-    min-height: 1px;
-  }
-  .akis {
-    background: white;
-    border-radius: 20px;
-    margin: 150px 0 20px 0;
-    padding: 15px;
-    height: 400px;
-    width: 400px;
-  }
-  /*fincvamhed*/
-
-
 /*cvnadege*/
 body.cvnadege h3 body.cvnadege p {
   color: black;
@@ -558,65 +382,3 @@ body.cvnadege h1, body.cvnadege h2 {
 
 
 /*fin cvnadege*/
-
-
-
-/* cvadel */
-.omb {
-  moz-box-shadow: 0px 5px 10px 0px #000000;
-  -webkit-box-shadow: 0px 5px 10px 0px #000000;
-  -o-box-shadow: 0px 5px 10px 0px #000000;
-  box-shadow: 0px 5px 10px 0px #000000;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, Strength=10);
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-.ombin {
-  -moz-box-shadow: inset -5px -5px 5px 0px #656565;
--webkit-box-shadow: inset -5px -5px 5px 0px #656565;
--o-box-shadow: inset -5px -5px 5px 0px #656565;
-box-shadow: inset -5px -5px 5px 0px #656565;
-filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, Strength=5);
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-}
-.tra3ombin{
-  height: 250px;
-}
-.formaombin{
-  height: 260px;
-}
-.sitomb{
-padding: 6px 30px 150px;
-}
-.contomb{
-  padding: 10px 20px;
-}
-.loisiromb{
-  height: 100px;
-}
-.nom{
-  text-shadow: 5px 2px #000000
-;
-}
-.slyz{
-  background-image: url("http://kbsrush.files.wordpress.com/2011/12/i-love-music.jpg");
- background-repeat: no-repeat;
- background-size: 100% 100%;
-}
-div.slyz p, div.slyz ul{
-  color: black;
-  font-weight: bold;
-}
-div.slyz h3{
-  color:#330099;
-}
-img {
-	max-width: 100%;
-}
-.photomb{
-  padding: 5px 70px;
-}
-/* fin cv adel */
