@@ -32,10 +32,11 @@ h1 {
 header {
   margin-top: 0;
 }
+
 /*test */
 
-body{
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 .css-slideshow {
@@ -75,9 +76,8 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   font-style: italic;
   margin: 0 auto;
 }
-
-@keyframes xfade{
-  0%{
+@keyframes xfade {
+  0% {
     opacity: 1;
   }
   10.5% {
@@ -93,18 +93,17 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
     opacity: 1;
   }
 }
-/*test*/
 
+/*test*/
 
 html, body.cv {
   height: 100%;
-  margin: 20px;
-  width:100%;
-  background-color:black;
-  color:white;
+  width: 100%;
+  background-color: white;
+  color: white;
 }
-
 body.cv h1, body.cv h3 {
+  margin-top: 0px;
   color: #D2B48C;
   text-align: center;
   font-family: 02;
@@ -117,10 +116,10 @@ body.cv h4 {
 }
 
 /*02*/
-.solide{
-    box-sizing: border-box;
-}
 
+.solide {
+  box-sizing: border-box;
+}
 .left {
   margin-left: -100px;
 }
@@ -133,8 +132,9 @@ body.cv h4 {
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
+    opacity: 10%;
 }
 .cont {
   position: absolute;
@@ -145,7 +145,7 @@ body.cv h4 {
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .sit {
@@ -157,7 +157,7 @@ body.cv h4 {
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .pres {
@@ -169,7 +169,7 @@ body.cv h4 {
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .lien {
@@ -181,13 +181,13 @@ body.cv h4 {
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 #xp {
   width: 900px;
   box-sizing: border-box;
-  background: #373737;
+  background:rgba(128, 0, 0, 0.21);
   border-top: 2px solid #444;
   border-bottom: 2px solid black;
   border-radius: 10px;
@@ -262,4 +262,35 @@ body.cv h4 {
   margin: 150px 0 20px 0;
   padding: 15px;
   height: 400px;
+}
+
+/* cvadel */
+.omb {
+  moz-box-shadow: 0px 5px 10px 0px #000000;
+  -webkit-box-shadow: 0px 5px 10px 0px #000000;
+  -o-box-shadow: 0px 5px 10px 0px #000000;
+  box-shadow: 0px 5px 10px 0px #000000;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, Strength=10);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.ombin {
+  -moz-box-shadow: inset -5px -5px 5px 0px #656565;
+-webkit-box-shadow: inset -5px -5px 5px 0px #656565;
+-o-box-shadow: inset -5px -5px 5px 0px #656565;
+box-shadow: inset -5px -5px 5px 0px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, Strength=5);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+.nom{
+  text-shadow: 5px 2px #000000
+;
+}
+.slyz{
+  background-image: url("http://kbsrush.files.wordpress.com/2011/12/i-love-music.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
 }
