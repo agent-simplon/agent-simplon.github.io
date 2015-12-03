@@ -99,13 +99,12 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 
 html, body.cv {
   height: 100%;
-  margin: 20px;
   width:100%;
-  background-color:grey;
   color:white;
 }
 
-body.cv h1, body.cv h3 {
+body.cv h1, body.cv h3, body.cv h2 {
+  margin-top: 0;
   color: #D2B48C;
   text-align: center;
   font-family: 02;
@@ -118,8 +117,19 @@ body.cv h4 {
 }
 
 /*02*/
+
+body.cv p {
+  text-align: center;
+  color: #D2B48C;
+
+}
 .solide{
-    box-sizing: border-box;
+    box-sizing: border-box;  http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
+}
+.backcv1 {
+  background-image: url("http://orig15.deviantart.net/d150/f/2012/098/7/6/secret_agent_pony_by_regolithx-d4vgc93.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .left {
@@ -128,67 +138,70 @@ body.cv h4 {
 .photo {
   position: absolute;
   float: left;
-  padding: 100px 100px 150px;
+  padding: 100px 110px 150px;
   margin-top: 50px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: ;
+  background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
-}
+  }
+  .maphoto {
+
+  }
 .cont {
   position: absolute;
   float: left;
-  padding: 10px 110px 150px;
-  margin-top: 350px;
+  padding: 10px 120px 150px;
+  margin-top: 370px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .sit {
   position: absolute;
   float: left;
-  padding: 60px 110px 150px;
-  margin-top: 540px;
+  padding: 60px 30px 150px;
+  margin-top: 610px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .pres {
   position: absolute;
   float: left;
-  padding: 120px 110px 150px;
-  margin-top: 780px;
+  padding: 120px 95px 150px;
+  margin-top: 905px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .lien {
   position: absolute;
   float: left;
-  padding: 40px 110px 50px;
-  margin-top: 1080px;
+  padding: 40px 140px 50px;
+  margin-top: 1250px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background: #2a2a2a;
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 #xp {
   width: 900px;
   box-sizing: border-box;
-  background: #373737;
+  background: rgba(128, 0, 0, 0.21);
   border-top: 2px solid #444;
   border-bottom: 2px solid black;
   border-radius: 10px;
@@ -207,39 +220,39 @@ body.cv h4 {
   min-height: 1px;
 }
 .tra1 {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .tra2 {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .tra3 {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .loisir {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .forma {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
-  height: 180px;
+  height: 210px;
 }
 .compt {
   position: relative;
@@ -250,7 +263,7 @@ body.cv h4 {
   min-height: 1px;
 }
 .aki {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 150px 0 20px 0;
   padding: 15px;
@@ -258,9 +271,10 @@ body.cv h4 {
   width: 400px;
 }
 .port {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 150px 0 20px 0;
   padding: 15px;
   height: 400px;
+  width: 400px;
 }
