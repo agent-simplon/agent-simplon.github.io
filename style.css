@@ -338,7 +338,6 @@ body.cv p {
   height: 400px;
   width: 400px;
 }
-
 /*fincv2*/
 
 
@@ -348,6 +347,7 @@ body.cev {
   color: white;
   background: url("http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
 }
+
 .lift {
   margin-left: -100px;
 }
@@ -362,6 +362,7 @@ body.cev {
   margin-bottom: 20px;
   background-color: #1D1515;
   border-radius: 10px;
+
 }
 .conte {
   position: absolute;
@@ -484,7 +485,6 @@ body.cev {
 
 
 /*cvnadege*/
-
 body.cvnadege h3 body.cvnadege p {
   color: black;
 }
