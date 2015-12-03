@@ -362,8 +362,196 @@ body.cv p {
   height: 400px;
   width: 400px;
 }
-
 /*fincv2*/
+
+
+/*cv Ahmed*/
+
+
+
+
+
+body.cev{
+    color: white;
+  background:url( "http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
+}
+
+
+
+
+.lift {
+  margin-left: -100px;
+}
+.phito {
+  position: absolute;
+  float: left;
+  padding: 100px 110px 150px;
+  margin-top: 50px;
+  color: white;
+  border-top: 2px solid green;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background-color: #1D1515;
+  border-radius: 10px;
+  }
+
+  .conte {
+    position: absolute;
+    float: left;
+    padding: 38px;
+    margin-top: 350px;
+    margin-left: 10%;
+    color: white;
+    border-top: 2px solid green;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #1D1515;
+    border-radius: 10px;
+  }
+
+
+  .set {
+    position: absolute;
+    float: left;
+    padding: 60px 30px 150px;
+    margin-top: 610px;
+    color: white;
+    border-top: 2px solid green;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #1D1515;
+    border-radius: 10px;
+  }
+
+
+
+  .pris {
+    position: absolute;
+    float: left;
+    padding: 120px 95px 150px;
+    margin-top: 905px;
+    color: white;
+    border-top: 2px solid green;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #1D1515;
+    border-radius: 10px;
+  }
+
+
+  #xep {
+    width: 900px;
+    box-sizing: border-box;
+    background-color: #1D1515;
+    border-top: 2px solid green;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    min-height: 810px;
+    padding-left: 20px;
+    margin-top: 48px;
+    margin-bottom: 50px;
+  }
+
+
+
+  .trai1 {
+    color: black;
+    background: white;
+    border-radius: 20px;
+    margin: 80px 0 20px 0;
+    padding: 15px;
+    height: 180px;
+  }
+
+
+
+  .trai2 {
+    color: black;
+    background: white;
+    border-radius: 20px;
+    margin: 80px 0 20px 0;
+    padding: 15px;
+    height: 180px;
+  }
+  .trai3 {
+    color: black;
+    background: white;
+    border-radius: 20px;
+    margin: 80px 0 20px 0;
+    padding: 15px;
+    height: 180px;
+  }
+
+
+
+  .expir {
+    color: white;
+    position: relative;
+    width: 58%;
+    margin-right: 2%;
+    float: left;
+    min-height: 1px;
+  }
+
+
+  .lois {
+    color: black;
+    background:white;
+    border-radius: 20px;
+    margin: 80px 0 20px 0;
+    padding: 15px;
+    height: 180px;
+  }
+  .formi {
+    color: black;
+    background: white;
+    border-radius: 20px;
+    margin: 80px 0 20px 0;
+    padding: 15px;
+    height: 210px;
+  }
+
+
+
+  .compe {
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    width: 58%;
+    margin-right: 2%;
+    float: left;
+    min-height: 1px;
+  }
+  .akis {
+    background: white;
+    border-radius: 20px;
+    margin: 150px 0 20px 0;
+    padding: 15px;
+    height: 400px;
+    width: 400px;
+  }
+  /*fincvamhed*/
+
+
+/*cvnadege*/
+body.cvnadege h3 body.cvnadege p {
+  color: black;
+}
+body.cvnadege h1, body.cvnadege h2 {
+  color:#CA2DCE;
+  text-align:center;
+}
+.backcvnadege {
+  background-image: url("http://img2.hebus.com/hebus_2008/05/11/preview/080511144251_73.jpg");
+  color: black;
+}
+
+
+/*fin cvnadege*/
+
+
 
 /* cvadel */
 .omb {
