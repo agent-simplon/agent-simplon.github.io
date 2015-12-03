@@ -182,7 +182,8 @@ position: relative;
     opacity: 1;
   }
 }
-/*test*/
+
+/*cv2Jérôme*/
 
 
 
@@ -205,11 +206,10 @@ body.cv h4 {
   text-align: center;
 }
 
-/*02*/
 
 body.cv p {
   text-align: center;
-  color: #D2B48C;
+  color: rgba(216, 164, 95, 0.73);
 
 }
 .solide{
@@ -242,7 +242,7 @@ body.cv p {
 .cont {
   position: absolute;
   float: left;
-  padding: 10px 120px 150px;
+  padding: 10px 53px 60px;
   margin-top: 370px;
   color: #909090;
   border-top: 2px solid #373737;
@@ -254,7 +254,7 @@ body.cv p {
 .sit {
   position: absolute;
   float: left;
-  padding: 60px 30px 150px;
+  padding: 20px 30px 150px;
   margin-top: 610px;
   color: #909090;
   border-top: 2px solid #373737;
@@ -266,27 +266,17 @@ body.cv p {
 .pres {
   position: absolute;
   float: left;
-  padding: 120px 95px 150px;
-  margin-top: 905px;
+  padding: 20px 1px 150px;
+  margin-top: 950px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
   background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
+  width: 330px;
 }
-.lien {
-  position: absolute;
-  float: left;
-  padding: 40px 140px 50px;
-  margin-top: 1250px;
-  color: #909090;
-  border-top: 2px solid #373737;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
-  background: rgba(128, 0, 0, 0.21);
-  border-radius: 10px;
-}
+
 #xp {
   width: 900px;
   box-sizing: border-box;
@@ -367,3 +357,5 @@ body.cv p {
   height: 400px;
   width: 400px;
 }
+
+/*fincv2*/
