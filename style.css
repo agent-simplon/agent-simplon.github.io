@@ -220,6 +220,7 @@ body.cv p {
 }
 .maphoto {
   padding: 5px 55px 3px;
+  opacity: 0.7;
 }
 .cont {
   position: absolute;
@@ -337,6 +338,7 @@ body.cv p {
   padding: 15px;
   height: 400px;
   width: 400px;
+  opacity: 0.8;
 }
 /*fincv2*/
 
