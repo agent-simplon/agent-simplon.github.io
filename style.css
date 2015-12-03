@@ -23,13 +23,15 @@ h1 {
   position: fixed;
   padding-left: 700px;
 }
-.presentation {
+.presentation{
+  font-size: 20px;
   text-align: center;
-  padding-top: 300px;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-top: 150px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 200px;
 }
-header {
+header{
   margin-top: 0;
 }
 
@@ -76,8 +78,96 @@ body {
   font-style: italic;
   margin: 0 auto;
 }
-@keyframes xfade {
-  0% {
+
+.meni {
+  font-size: 10px;
+  margin-top: 20%;
+  text-align:center;
+position: relative;
+
+}
+
+.profil {
+    background-color: #bfbfbf;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.profil + [class$="profil"] {
+    visibility: visible;
+}
+
+.profil2 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: -55%;
+    visibility: hidden;
+}
+
+[class*="profil"]:hover {
+    box-shadow: 1px 1px 12px #071E1B;
+}
+
+.profil3 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+    left: -30%;
+    visibility: hidden;
+}
+.profil3-bis {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60%;
+    left: 25%;
+    visibility: hidden;
+}
+
+.profil4 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+    left: 80%;
+    visibility: hidden;
+}
+
+.profil5 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 105%;
+    visibility: hidden;
+}
+
+.display {
+    visibility: visible;
+}
+
+
+@keyframes xfade{
+  0%{
     opacity: 1;
   }
   10.5% {
@@ -96,14 +186,16 @@ body {
 
 /*test*/
 
-html, body.cv {
+
+html, body.cv  {
   height: 100%;
-  width: 100%;
-  background-color: white;
-  color: white;
+
+  width:100%;
+  color:white;
 }
-body.cv h1, body.cv h3 {
-  margin-top: 0px;
+
+body.cv h1, body.cv h3, body.cv h2 {
+  margin-top: 0;
   color: #D2B48C;
   text-align: center;
   font-family: 02;
@@ -117,16 +209,29 @@ body.cv h4 {
 
 /*02*/
 
-.solide {
-  box-sizing: border-box;
+body.cv p {
+  text-align: center;
+  color: #D2B48C;
+
 }
+.solide{
+    box-sizing: border-box;
+    http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
+}
+.backcv1 {
+  background-image: url("http://orig15.deviantart.net/d150/f/2012/098/7/6/secret_agent_pony_by_regolithx-d4vgc93.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
 .left {
   margin-left: -100px;
 }
 .photo {
   position: absolute;
   float: left;
-  padding: 120px 110px 150px;
+  padding: 100px 110px 150px;
   margin-top: 50px;
   color: #909090;
   border-top: 2px solid #373737;
@@ -134,60 +239,51 @@ body.cv h4 {
   margin-bottom: 20px;
   background:rgba(128, 0, 0, 0.21);
   border-radius: 10px;
-    opacity: 10%;
-}
+  }
+  .maphoto {
+
+  }
+
 .cont {
   position: absolute;
   float: left;
-  padding: 10px 110px 150px;
-  margin-top: 350px;
+  padding: 10px 120px 150px;
+  margin-top: 370px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background:rgba(128, 0, 0, 0.21);
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .sit {
   position: absolute;
   float: left;
-  padding: 60px 110px 150px;
-  margin-top: 540px;
+  padding: 60px 30px 150px;
+  margin-top: 610px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background:rgba(128, 0, 0, 0.21);
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 .pres {
   position: absolute;
   float: left;
-  padding: 120px 110px 150px;
-  margin-top: 780px;
+  padding: 120px 95px 150px;
+  margin-top: 905px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background:rgba(128, 0, 0, 0.21);
-  border-radius: 10px;
-}
-.lien {
-  position: absolute;
-  float: left;
-  padding: 40px 110px 50px;
-  margin-top: 1080px;
-  color: #909090;
-  border-top: 2px solid #373737;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
-  background:rgba(128, 0, 0, 0.21);
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
 }
 #xp {
   width: 900px;
   box-sizing: border-box;
-  background:rgba(128, 0, 0, 0.21);
+  background: rgba(128, 0, 0, 0.21);
   border-top: 2px solid #444;
   border-bottom: 2px solid black;
   border-radius: 10px;
@@ -206,39 +302,39 @@ body.cv h4 {
   min-height: 1px;
 }
 .tra1 {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .tra2 {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .tra3 {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .loisir {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
   height: 180px;
 }
 .forma {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 80px 0 20px 0;
   padding: 15px;
-  height: 180px;
+  height: 210px;
 }
 .compt {
   position: relative;
@@ -249,7 +345,7 @@ body.cv h4 {
   min-height: 1px;
 }
 .aki {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 150px 0 20px 0;
   padding: 15px;
@@ -257,11 +353,12 @@ body.cv h4 {
   width: 400px;
 }
 .port {
-  background: white;
+  background: rgba(255, 255, 255, 0.23);
   border-radius: 20px;
   margin: 150px 0 20px 0;
   padding: 15px;
   height: 400px;
+  width: 400px;
 }
 
 /* cvadel */
@@ -285,6 +382,21 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, St
 -webkit-border-radius: 10px;
 border-radius: 10px;
 }
+.tra3ombin{
+  height: 250px;
+}
+.formaombin{
+  height: 260px;
+}
+.sitomb{
+padding: 6px 30px 150px;
+}
+.contomb{
+  padding: 10px 20px;
+}
+.loisiromb{
+  height: 100px;
+}
 .nom{
   text-shadow: 5px 2px #000000
 ;
@@ -293,4 +405,17 @@ border-radius: 10px;
   background-image: url("http://kbsrush.files.wordpress.com/2011/12/i-love-music.jpg");
  background-repeat: no-repeat;
  background-size: 100% 100%;
+}
+div.slyz p, div.slyz ul{
+  color: black;
+  font-weight: bold;
+}
+div.slyz h3{
+  color:#330099;
+}
+img {
+	max-width: 100%;
+}
+.photomb{
+  padding: 5px 70px;
 }

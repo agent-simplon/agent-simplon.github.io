@@ -7,11 +7,14 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="slider.css" />
+    <!-- Menu -->
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <!-- fin Menu -->
     <link href="http://themarklee.com/2013/10/16/simple-crossfading-slideshow-css/" href="style.css">
     <title>Agent Simplon - Project 0.0.9</title>
   </head>
 
-  <body>
+  <body style="background:#8649F0">
     <header>
       <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
@@ -46,46 +49,30 @@
 
       <!-- #endregion Jssor Slider End -->
     </header>
-    <!-- Fin du HEADER -->
+    <div class="menu">
 
-    <!-- Corps de la page -->
-    <div class="container">
-      <!-- Première colonne -->
-      <div class="row">
-        <div class="col-md-2">
-          <div class="jerome">
-            <div style="background-image: url(file:///home/jerome/Bureau/jerome/agent-simplon/secret_service_agent-256.png); width: 200px; height: 200px;"></div>
-          </div>
-        </div>
-        <!-- Fin de la première colonne -->
-        <!-- Deuxième colonne -->
-        <div class="col-md-2">
-          <div class="abdel">
-            <div style="background-image: url(file:///home/jerome/Bureau/jerome/agent-simplon/secret_service_agent-256.png); width: 200px; height: 200px;"></div>
-          </div>
-        </div>
-      </div>
-      <!-- Fin deuxième colonne -->
-    </div>
-    <!-- Fin premier container -->
-    <div class="col-md-2">
-      <div class="nadege">
-        <div style="background-image: url(file:///home/jerome/Bureau/jerome/agent-simplon/secret_service_agent-256.png); width: 200px; height: 200px;"></div>
-      </div>
-    </div>
-    </div>
-    <div class="col-md-2">
-      <div class="adel">
-        <div style="background-image: url(file:///home/jerome/Bureau/jerome/agent-simplon/secret_service_agent-256.png); width: 200px; height: 200px;"></div>
-      </div>
-    </div>
-    </div>
-    <div class="col-md-2">
-      <div class="amhed">
-        <div style="background-image: url(file:///home/jerome/Bureau/jerome/agent-simplon/secret_service_agent-256.png); width: 200px; height: 200px;"></div>
-      </div>
-    </div>
-    </div>
+      <!-- Equipe -->
+              <nav class="profil">
+                  <a href="#"><img src="img/menu/profil-chef-equipe2.png" alt="profil du chef d'equipe" />
+                  <p>L'équipe Agent Simplon</p></a>
+                 <div class="profil2">
+                     <a href="#"><img src="img/menu/profil1.png" alt="photo de profil" /><p class="presentation-equipe left">Karine Alias Princesse Girly</p></a>
+                 </div>
+                 <div class="profil3">
+                     <a href="#"><img src="img/menu/profil2.png" alt="photo de profil" /><p class="presentation-equipe left">Abdel Alias l'homme du futur</p></a>
+                 </div>
+                 <div class="profil3-bis">
+                     <a href="#"><img src="img/menu/jerome.png" alt="photo de profil" /><p class="presentation-equipe">Abel Alias le sage</p></a>
+                 </div>
+                 <div class="profil4">
+                     <a href="#"><img src="img/menu/profil.png" alt="photo de profil" /><p class="presentation-equipe right">Jerome Alias Prof</p></a>
+                 </div>
+                 <div class="profil5">
+                     <a href="#"><img src="img/menu/profil4.png" alt="photo de profil" /><p class="presentation-equipe right">Ahmed Alias le lutin</p></a>
+                 </div>
+             </nav>
+             <!-- fin equipe -->
+</div>
     <div class="presentation">
       <p> Tout ressenblance avec des personne existant ou ayant exister serait totalement volontaire, chacune de nos mission etant secrete nous n'hesiteront pas a trahir le secret proffessionnel pour vous (apprenti agent) </p>
       <p> La team des agent de simplon est un groupe crée en 2015 suite a un exès de tristesse dans ce monde. </p>
@@ -113,6 +100,7 @@
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
     <script type="text/javascript" src="slider.js"></script>
+    <script src="menu.js"></script>
   </body>
 
   </html>
