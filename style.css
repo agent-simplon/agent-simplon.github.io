@@ -23,13 +23,15 @@ h1 {
   position: fixed;
   padding-left: 700px;
 }
-.presentation {
+.presentation{
+  font-size: 20px;
   text-align: center;
-  padding-top: 300px;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-top: 150px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 200px;
 }
-header {
+header{
   margin-top: 0;
 }
 /*test */
@@ -76,6 +78,93 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
   margin: 0 auto;
 }
 
+.meni {
+  font-size: 10px;
+  margin-top: 20%;
+  text-align:center;
+position: relative;
+
+}
+
+.profil {
+    background-color: #bfbfbf;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.profil + [class$="profil"] {
+    visibility: visible;
+}
+
+.profil2 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: -55%;
+    visibility: hidden;
+}
+
+[class*="profil"]:hover {
+    box-shadow: 1px 1px 12px #071E1B;
+}
+
+.profil3 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+    left: -30%;
+    visibility: hidden;
+}
+.profil3-bis {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60%;
+    left: 25%;
+    visibility: hidden;
+}
+
+.profil4 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+    left: 80%;
+    visibility: hidden;
+}
+
+.profil5 {
+    background-color: #A7B9B6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 105%;
+    visibility: hidden;
+}
+
+.display {
+    visibility: visible;
+}
+
+
 @keyframes xfade{
   0%{
     opacity: 1;
@@ -97,7 +186,7 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 
 
 
-html, body.cv {
+html, body.cv  {
   height: 100%;
   width:100%;
   color:white;
