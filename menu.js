@@ -13,7 +13,7 @@ $(function() {
       $('.presentation').html("<h1>M'CHINDRA Adel-Ben</h1><p>Jeune aventurier des temps modernes, il parcours le monde virtuel à la recherche du saint costard .</p> <a href=\"http://agent-simplon.github.io/cvslyz.html\"<div class=\"btn-cv\">Voir le CV</div></a>")
     });
     $('.profil5').css('visibility', 'visible').click(function() {
-      $('.presentation').html("<h1>SERY Nadege</h1><p>Un vent d’optimisme souffle sur le numérique français, certains parlent même de « troisième révolution industrielle à la française », et l’ensemble du pays ne peut que s’en réjouir. Progressivement, le numérique s’est imposé à tous. Il n’est plus réservé aux technophiles, il n’est plus non plus considéré comme une niche par les acteurs économiques, mais comme une vague de fond qui touche tous les secteurs de façon transversal.</p> <a href=\"http://agent-simplon.github.io/cvnadege.html\"<div class=\"btn-cv\">Voir le CV</div></a>")
+      $('.presentation').html("<h1>SERY Nadege</h1><p>Un vent d’optimisme souffle sur le numérique français, certains parlent même de troisième révolution industrielle à la française, et l’ensemble du pays ne peut que s’en réjouir. Progressivement, le numérique s’est imposé à tous. Il n’est plus réservé aux technophiles, il n’est plus non plus considéré comme une niche par les acteurs économiques, mais comme une vague de fond qui touche tous les secteurs de façon transversal.</p><a href=\"http://agent-simplon.github.io/cvnadege.html\"<div class=\"btn-cv\">Voir le CV</div></a>")
     });
   });
 });
