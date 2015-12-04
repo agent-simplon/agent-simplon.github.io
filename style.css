@@ -387,121 +387,157 @@ body.cev {
   background: url("http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
 }
 
-.lift {
-  margin-left: -100px;
+p{
+  color:#909090;
+
 }
+
 .phito {
   position: absolute;
   float: left;
-  padding: 100px 110px 150px;
+margin-left: 12%;
   margin-top: 50px;
   color: white;
-  border-top: 2px solid green;
+  border-top: 2px solid white;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background-color: #1D1515;
+  background-color: #363636;
   border-radius: 10px;
 
-}
-.conte {
-  position: absolute;
-  float: left;
-  padding: 38px;
-  margin-top: 350px;
-  margin-left: 10%;
-  color: white;
-  border-top: 2px solid green;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
-  background-color: #1D1515;
-  border-radius: 10px;
-}
-.set {
-  position: absolute;
-  float: left;
-  padding: 60px 30px 150px;
-  margin-top: 610px;
-  color: white;
-  border-top: 2px solid green;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
-  background-color: #1D1515;
-  border-radius: 10px;
-}
-.pris {
-  position: absolute;
-  float: left;
-  padding: 120px 95px 150px;
-  margin-top: 905px;
-  color: white;
-  border-top: 2px solid green;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
-  background-color: #1D1515;
-  border-radius: 10px;
-}
-#xep {
-  width: 900px;
-  box-sizing: border-box;
-  background-color: #1D1515;
-  border-top: 2px solid green;
-  border-bottom: 2px solid black;
-  border-radius: 10px;
-  float: left;
-  position: relative;
-  min-height: 810px;
-  padding-left: 20px;
-  margin-top: 48px;
-  margin-bottom: 50px;
-}
-.trai1 {
-  color: black;
-  background: white;
-  border-radius: 20px;
-  margin: 80px 0 20px 0;
-  padding: 15px;
-  height: 180px;
-}
-.trai2 {
-  color: black;
-  background: white;
-  border-radius: 20px;
-  margin: 80px 0 20px 0;
-  padding: 15px;
-  height: 180px;
-}
-.trai3 {
-  color: black;
-  background: white;
-  border-radius: 20px;
-  margin: 80px 0 20px 0;
-  padding: 15px;
-  height: 180px;
-}
-.expir {
-  color: white;
-  position: relative;
-  width: 58%;
-  margin-right: 2%;
-  float: left;
-  min-height: 1px;
-}
-.lois {
-  color: black;
-  background: white;
-  border-radius: 20px;
-  margin: 80px 0 20px 0;
-  padding: 15px;
-  height: 180px;
-}
-.formi {
-  color: black;
-  background: white;
-  border-radius: 20px;
-  margin: 80px 0 20px 0;
-  padding: 15px;
-  height: 210px;
-}
+  width: 220px;
+  height: 300px;
+  }
+
+  .conte {
+    position: absolute;
+    float: left;
+    margin-top: 360px;
+    margin-left: 12%;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #363636;
+    border-radius: 10px;
+    height: 190px;
+    width: 220px;
+  }
+
+
+  .set {
+    position: absolute;
+    float: left;
+    margin-left: 12%;
+    margin-top: 560px;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #363636;
+    border-radius: 10px;
+    height: 160px;
+    width: 220px;
+  }
+
+
+
+  .pris {
+    position: absolute;
+    float: left;
+    margin-left: 12%;
+    margin-top: 730px;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #363636;
+    border-radius: 10px;
+    height: 190px;
+    width: 220px;
+  }
+
+
+  #xep {
+    width: 700px;
+    box-sizing: border-box;
+    background-color: #363636;
+    border-top: 2px solid white;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    min-height: 810px;
+    padding-left: 20px;
+    margin-top: 48px;
+    margin-bottom: 50px;
+  }
+
+
+
+  .trai1 {
+    color: black;
+    background: white;
+    border-radius: 20px;
+margin-top: 10px;
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+  }
+
+
+
+  .trai2 {
+    color: black;
+    background: white;
+    border-radius: 20px;
+margin-top: 10px;
+    padding: 15px;
+    height: 150px;
+    width: 300px;
+  }
+  .trai3 {
+    color: black;
+    background: white;
+    border-radius: 20px;
+margin-top: 10px;
+    padding: 15px;
+    height: 150px;
+    width: 300px;
+  }
+
+
+
+  .expir {
+    margin-top: 10px;
+    color: white;
+    position: relative;
+    width: 58%;
+    margin-right: 2%;
+    float: left;
+    min-height: 1px;
+  }
+
+
+  .lois {
+    color: black;
+    background:white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    height: 150px;
+    width: 300px;
+  }
+  .formi {
+    margin-top: 10px;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+  }
+
+
 .compe {
   color: black;
   position: relative;
@@ -511,16 +547,28 @@ body.cev {
   float: left;
   min-height: 1px;
 }
-.akis {
-  background: white;
-  border-radius: 20px;
-  margin: 150px 0 20px 0;
-  padding: 15px;
-  height: 400px;
-  width: 400px;
-}
 
-/*fincvamhed*/
+
+
+  .akis {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+  }
+
+  .part {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    height: 650px;
+    width: 300px;
+  }
+
+
+  /*fincvamhed*/
+
 
 
 /*cvnadege*/
