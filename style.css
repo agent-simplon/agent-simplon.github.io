@@ -27,7 +27,7 @@ h1 {
   font-size: 20px;
   text-align: center;
   width: 960px;
-  margin: 500px auto;
+  margin: 70px auto;
 }
 header {
   margin-top: 0;
@@ -78,9 +78,11 @@ body {
 }
 .meni {
   font-size: 10px;
-  margin-top: 15%;
+  height: 500px;
+  background-color: rgb(238, 238, 238);
   text-align: center;
   position: relative;
+  box-shadow: 0 4px 4px -2px gray;
 }
 .profil {
   background-color: #bfbfbf;
@@ -89,7 +91,7 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 70%;
   transform: translate(-50%, -50%);
 }
 .profil + [class$="profil"] {
@@ -148,9 +150,37 @@ body {
   left: 105%;
   visibility: hidden;
 }
+
+.presentation p {
+  text-align: justify;
+}
 .display {
   visibility: visible;
 }
+
+/* Avis client */
+
+.avis-client {
+  height: 800px;
+  background-image: url(img/avis-client.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.projets {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fz {
+  font-size: 40px;
+  color: white;
+}
+
+/* Fin avis client */
+
 @keyframes xfade {
   0% {
     opacity: 1;
