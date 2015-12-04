@@ -373,51 +373,54 @@ body.cev{
   background:url( "http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
 }
 
-
-
-
-.lift {
-  margin-left: -100px;
+p{
+  color:#909090;
 }
+
 .phito {
   position: absolute;
   float: left;
-  padding: 100px 110px 150px;
+margin-left: 12%;
   margin-top: 50px;
   color: white;
-  border-top: 2px solid green;
+  border-top: 2px solid white;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background-color: #1D1515;
+  background-color: #363636;
   border-radius: 10px;
+  width: 220px;
+  height: 300px;
   }
 
   .conte {
     position: absolute;
     float: left;
-    padding: 38px;
-    margin-top: 350px;
-    margin-left: 10%;
+    margin-top: 360px;
+    margin-left: 12%;
     color: white;
-    border-top: 2px solid green;
+    border-top: 2px solid white;
     border-bottom: 2px solid black;
     margin-bottom: 20px;
-    background-color: #1D1515;
+    background-color: #363636;
     border-radius: 10px;
+    height: 190px;
+    width: 220px;
   }
 
 
   .set {
     position: absolute;
     float: left;
-    padding: 60px 30px 150px;
-    margin-top: 610px;
+    margin-left: 12%;
+    margin-top: 560px;
     color: white;
-    border-top: 2px solid green;
+    border-top: 2px solid white;
     border-bottom: 2px solid black;
     margin-bottom: 20px;
-    background-color: #1D1515;
+    background-color: #363636;
     border-radius: 10px;
+    height: 160px;
+    width: 220px;
   }
 
 
@@ -425,22 +428,24 @@ body.cev{
   .pris {
     position: absolute;
     float: left;
-    padding: 120px 95px 150px;
-    margin-top: 905px;
+    margin-left: 12%;
+    margin-top: 730px;
     color: white;
-    border-top: 2px solid green;
+    border-top: 2px solid white;
     border-bottom: 2px solid black;
     margin-bottom: 20px;
-    background-color: #1D1515;
+    background-color: #363636;
     border-radius: 10px;
+    height: 190px;
+    width: 220px;
   }
 
 
   #xep {
-    width: 900px;
+    width: 700px;
     box-sizing: border-box;
-    background-color: #1D1515;
-    border-top: 2px solid green;
+    background-color: #363636;
+    border-top: 2px solid white;
     border-bottom: 2px solid black;
     border-radius: 10px;
     float: left;
@@ -457,9 +462,10 @@ body.cev{
     color: black;
     background: white;
     border-radius: 20px;
-    margin: 80px 0 20px 0;
+margin-top: 10px;
     padding: 15px;
-    height: 180px;
+    height: 200px;
+    width: 300px;
   }
 
 
@@ -468,22 +474,25 @@ body.cev{
     color: black;
     background: white;
     border-radius: 20px;
-    margin: 80px 0 20px 0;
+margin-top: 10px;
     padding: 15px;
-    height: 180px;
+    height: 150px;
+    width: 300px;
   }
   .trai3 {
     color: black;
     background: white;
     border-radius: 20px;
-    margin: 80px 0 20px 0;
+margin-top: 10px;
     padding: 15px;
-    height: 180px;
+    height: 150px;
+    width: 300px;
   }
 
 
 
   .expir {
+    margin-top: 10px;
     color: white;
     position: relative;
     width: 58%;
@@ -497,17 +506,19 @@ body.cev{
     color: black;
     background:white;
     border-radius: 20px;
-    margin: 80px 0 20px 0;
+    margin-top: 10px;
     padding: 15px;
-    height: 180px;
+    height: 150px;
+    width: 300px;
   }
   .formi {
+    margin-top: 10px;
     color: black;
     background: white;
     border-radius: 20px;
-    margin: 80px 0 20px 0;
     padding: 15px;
-    height: 210px;
+    height: 200px;
+    width: 300px;
   }
 
 
@@ -524,11 +535,20 @@ body.cev{
   .akis {
     background: white;
     border-radius: 20px;
-    margin: 150px 0 20px 0;
     padding: 15px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
   }
+
+  .part {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    height: 200px;
+    width: 300px;
+  }
+
+
   /*fincvamhed*/
 
 
