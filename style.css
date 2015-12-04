@@ -176,12 +176,19 @@ html, body.cv {
   width: 100%;
   color: white;
 }
-body.cv h1, body.cv h3, body.cv h2 {
+body.cv h1, body.cv h2 {
   margin-top: 0;
   color: #D2B48C;
   text-align: center;
   font-family: 02;
 }
+body.cv h3 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 02;
+color: #7D7469;
+}
+
 body.cv h4 {
   position: relative;
   height: 50px;
