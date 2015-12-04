@@ -98,6 +98,16 @@ body {
     visibility: hidden;
 }
 
+.btn-cv {
+  background-color: rgb(179, 0, 0);
+  width: 130px;
+  height: 50px;
+  margin: 30px auto;
+  line-height: 50px;
+  display: block;
+  color: white;
+}
+
 .display {
     visibility: visible;
 }

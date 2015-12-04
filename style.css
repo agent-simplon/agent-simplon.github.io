@@ -23,13 +23,13 @@ h1 {
   position: fixed;
   padding-left: 700px;
 }
-.presentation{
+.presentation {
   font-size: 20px;
   text-align: center;
   width: 960px;
-  margin: 500px auto;
+  margin: 70px auto;
 }
-header{
+header {
   margin-top: 0;
 }
 
@@ -76,96 +76,113 @@ body {
   font-style: italic;
   margin: 0 auto;
 }
-
 .meni {
   font-size: 10px;
-  margin-top: 15%;
-  text-align:center;
-position: relative;
-
+  height: 500px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 4px -2px gray;
 }
-
 .profil {
-    background-color: #bfbfbf;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  background-color: #bfbfbf;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
 }
-
-
 .profil + [class$="profil"] {
-    visibility: visible;
+  visibility: visible;
 }
-
 .profil2 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: -55%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: -55%;
+  visibility: hidden;
 }
-
 [class*="profil"]:hover {
-    box-shadow: 1px 1px 12px #071E1B;
+  box-shadow: 1px 1px 12px #071E1B;
 }
-
 .profil3 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -40%;
-    left: -30%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: -30%;
+  visibility: hidden;
 }
 .profil3-bis {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -60%;
-    left: 25%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -60%;
+  left: 25%;
+  visibility: hidden;
 }
-
 .profil4 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -40%;
-    left: 80%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: 80%;
+  visibility: hidden;
 }
-
 .profil5 {
-    background-color: #A7B9B6;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    left: 105%;
-    visibility: hidden;
+  background-color: #A7B9B6;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 105%;
+  visibility: hidden;
 }
 
+.presentation p {
+  text-align: justify;
+}
 .display {
-    visibility: visible;
+  visibility: visible;
 }
 
+/* Avis client */
 
-@keyframes xfade{
-  0%{
+.avis-client {
+  height: 800px;
+  background-image: url(img/avis-client.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.projets {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fz {
+  font-size: 40px;
+  color: white;
+}
+
+/* Fin avis client */
+
+@keyframes xfade {
+  0% {
     opacity: 1;
   }
   10.5% {
@@ -184,14 +201,11 @@ position: relative;
 
 /*cv2Jérôme*/
 
-
-html, body.cv  {
+html, body.cv {
   height: 100%;
-
-  width:100%;
-  color:white;
+  width: 100%;
+  color: white;
 }
-
 body.cv h1, body.cv h3, body.cv h2 {
   margin-top: 0;
   color: #D2B48C;
@@ -204,43 +218,40 @@ body.cv h4 {
   clear: both;
   text-align: center;
 }
-
-
 body.cv p {
   text-align: center;
   color: rgba(216, 164, 95, 0.73);
-
 }
-.solide{
-    box-sizing: border-box;
-    http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
+.solide {
+  box-sizing: border-box;
+  http://thumbs.dreamstime.com/z/secret-agent-holding-gun-against-tunnel-background-bright-light-29727813.jpg;
 }
 .backcv1 {
   background-image: url("http://orig15.deviantart.net/d150/f/2012/098/7/6/secret_agent_pony_by_regolithx-d4vgc93.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
-
 .left {
   margin-left: -100px;
 }
 .photo {
   position: absolute;
   float: left;
-  padding: 100px 110px 150px;
+  padding: 15px 15px 15px;
   margin-top: 50px;
   color: #909090;
   border-top: 2px solid #373737;
   border-bottom: 2px solid black;
   margin-bottom: 20px;
-  background:rgba(128, 0, 0, 0.21);
+  background: rgba(128, 0, 0, 0.21);
   border-radius: 10px;
-  }
-  .maphoto {
-
-  }
-
+  height: 250px;
+  width: 330px;
+}
+.maphoto {
+  padding: 5px 55px 3px;
+  opacity: 0.7;
+}
 .cont {
   position: absolute;
   float: left;
@@ -278,7 +289,6 @@ body.cv p {
   border-radius: 10px;
   width: 330px;
 }
-
 #xp {
   width: 900px;
   box-sizing: border-box;
@@ -358,23 +368,21 @@ body.cv p {
   padding: 15px;
   height: 400px;
   width: 400px;
+  opacity: 0.8;
 }
 /*fincv2*/
 
 
 /*cv Ahmed*/
 
-
-
-
-
-body.cev{
-    color: white;
-  background:url( "http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
+body.cev {
+  color: white;
+  background: url("http://www.wallfizz.com/art-design/artistique/4217-fond-papier-peint-WallFizz.jpg")
 }
 
 p{
   color:#909090;
+
 }
 
 .phito {
@@ -388,6 +396,7 @@ margin-left: 12%;
   margin-bottom: 20px;
   background-color: #363636;
   border-radius: 10px;
+
   width: 220px;
   height: 300px;
   }
@@ -522,16 +531,18 @@ margin-top: 10px;
   }
 
 
+.compe {
+  color: black;
+  position: relative;
+  border-radius: 20px;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
 
-  .compe {
-    color: black;
-    position: relative;
-    border-radius: 20px;
-    width: 58%;
-    margin-right: 2%;
-    float: left;
-    min-height: 1px;
-  }
+
+
   .akis {
     background: white;
     border-radius: 20px;
@@ -544,7 +555,7 @@ margin-top: 10px;
     background: white;
     border-radius: 20px;
     padding: 15px;
-    height: 200px;
+    height: 650px;
     width: 300px;
   }
 
@@ -552,80 +563,80 @@ margin-top: 10px;
   /*fincvamhed*/
 
 
+
 /*cvnadege*/
 body.cvnadege h3 body.cvnadege p {
   color: black;
 }
 body.cvnadege h1, body.cvnadege h2 {
-  color:#CA2DCE;
-  text-align:center;
+  color: #CA2DCE;
+  text-align: center;
 }
 .backcvnadege {
   background-image: url("http://img2.hebus.com/hebus_2008/05/11/preview/080511144251_73.jpg");
   color: black;
 }
 
-
 /*fin cvnadege*/
 
 
-
 /* cvadel */
+
 .omb {
   moz-box-shadow: 0px 5px 10px 0px #000000;
   -webkit-box-shadow: 0px 5px 10px 0px #000000;
   -o-box-shadow: 0px 5px 10px 0px #000000;
   box-shadow: 0px 5px 10px 0px #000000;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, Strength=10);
+  filter: progid: DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, Strength=10);
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 .ombin {
   -moz-box-shadow: inset -5px -5px 5px 0px #656565;
--webkit-box-shadow: inset -5px -5px 5px 0px #656565;
--o-box-shadow: inset -5px -5px 5px 0px #656565;
-box-shadow: inset -5px -5px 5px 0px #656565;
-filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, Strength=5);
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
+  -webkit-box-shadow: inset -5px -5px 5px 0px #656565;
+  -o-box-shadow: inset -5px -5px 5px 0px #656565;
+  box-shadow: inset -5px -5px 5px 0px #656565;
+  filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=315, Strength=5);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
-.tra3ombin{
+.tra3ombin {
   height: 250px;
 }
-.formaombin{
+.formaombin {
   height: 260px;
 }
-.sitomb{
-padding: 6px 30px 150px;
+.sitomb {
+  padding: 6px 30px 150px;
 }
-.contomb{
+.contomb {
   padding: 10px 20px;
 }
-.loisiromb{
+.loisiromb {
   height: 100px;
 }
-.nom{
-  text-shadow: 5px 2px #000000
-;
+.nom {
+  text-shadow: 5px 2px #000000;
 }
-.slyz{
+.slyz {
   background-image: url("http://kbsrush.files.wordpress.com/2011/12/i-love-music.jpg");
- background-repeat: no-repeat;
- background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-div.slyz p, div.slyz ul{
+div.slyz p, div.slyz ul {
   color: black;
   font-weight: bold;
 }
-div.slyz h3{
-  color:#330099;
+div.slyz h3 {
+  color: #330099;
 }
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
-.photomb{
+.photomb {
   padding: 5px 70px;
 }
+
 /* fin cv adel */
