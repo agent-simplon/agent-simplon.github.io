@@ -206,12 +206,19 @@ html, body.cv {
   width: 100%;
   color: white;
 }
-body.cv h1, body.cv h3, body.cv h2 {
+body.cv h1, body.cv h2 {
   margin-top: 0;
   color: #D2B48C;
   text-align: center;
   font-family: 02;
 }
+body.cv h3 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 02;
+color: #7D7469;
+}
+
 body.cv h4 {
   position: relative;
   height: 50px;
@@ -531,7 +538,6 @@ body.cvnadege h1, body.cvnadege h2 {
   background-image: url("http://img2.hebus.com/hebus_2008/05/11/preview/080511144251_73.jpg");
   color: black;
 }
-<<<<<<< HEAD
 .photomba {
     padding: 15px 15px;
 }
@@ -547,8 +553,7 @@ body.cvnadege h1, body.cvnadege h2 {
     background: rgba(128, 0, 0, 0.21);
     border-radius: 10px;
 }
-=======
->>>>>>> 4d5ab1bbf665074d09284bfec7bd8e5c20126a7f
+
 
 /*fin cvnadege*/
 
