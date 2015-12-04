@@ -555,22 +555,6 @@ body.cvnadege h1, body.cvnadege h2 {
     border-radius: 10px;
 }
 
-.photomba {
-    padding: 15px 15px;
-}
-.maphotonadege {
-    position: absolute;
-    float: left;
-    padding: 10px 10px 10px;
-    margin-top: 50px;
-    color: #909090;
-    border-top: 2px solid #373737;
-    border-bottom: 2px solid black;
-    margin-bottom: 20px;
-    background: rgba(128, 0, 0, 0.21);
-    border-radius: 10px;
-}
-
 /*fin cvnadege*/
 
 
