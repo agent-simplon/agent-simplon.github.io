@@ -206,12 +206,19 @@ html, body.cv {
   width: 100%;
   color: white;
 }
-body.cv h1, body.cv h3, body.cv h2 {
+body.cv h1, body.cv h2 {
   margin-top: 0;
   color: #D2B48C;
   text-align: center;
   font-family: 02;
 }
+body.cv h3 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 02;
+color: #7D7469;
+}
+
 body.cv h4 {
   position: relative;
   height: 50px;
@@ -565,7 +572,10 @@ margin-top: 10px;
 
 
 /*cvnadege*/
-body.cvnadege h3 body.cvnadege p {
+body.cvnadege h3 {
+  color: #2DCE4B;
+}
+  body.cvnadege p {
   color: black;
 }
 body.cvnadege h1, body.cvnadege h2 {
@@ -576,6 +586,22 @@ body.cvnadege h1, body.cvnadege h2 {
   background-image: url("http://img2.hebus.com/hebus_2008/05/11/preview/080511144251_73.jpg");
   color: black;
 }
+.photomba {
+    padding: 15px 15px;
+}
+.maphotonadege {
+    position: absolute;
+    float: left;
+    padding: 10px 10px 10px;
+    margin-top: 50px;
+    color: #909090;
+    border-top: 2px solid #373737;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background: rgba(128, 0, 0, 0.21);
+    border-radius: 10px;
+}
+
 
 /*fin cvnadege*/
 
@@ -602,19 +628,19 @@ body.cvnadege h1, body.cvnadege h2 {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-.tra3ombin {
+.tra3.tra3ombin {
   height: 250px;
 }
-.formaombin {
+.forma.formaombin {
   height: 260px;
 }
 .sitomb {
   padding: 6px 30px 150px;
 }
-.contomb {
+.cont.contomb {
   padding: 10px 20px;
 }
-.loisiromb {
+.loisir.loisiromb {
   height: 100px;
 }
 .nom {
@@ -635,8 +661,187 @@ div.slyz h3 {
 img {
   max-width: 100%;
 }
-.photomb {
-  padding: 5px 70px;
+.photo.photomb {
+  padding: 0px 50px 0px
 }
 
 /* fin cv adel */
+
+
+/* cv Abdel-Malik*/
+
+html, body.cvabdel {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+body.cvabdel {
+  background-color: #2c3e50;
+}
+
+body.cvabdel h1, body.cvabdel h3, body.cvabdel h2 {
+  margin-top: 0;
+  color: #D2B48C;
+  text-align: center;
+  font-family: 02;
+  background-color: #34495e;
+}
+body.cvabdel h4 {
+  position: relative;
+  height: 50px;
+  clear: both;
+  text-align: center;
+}
+body.cvabdel p {
+  text-align: center;
+  color: rgba(216, 164, 95, 0.73);
+}
+.solide {
+  box-sizing: border-box;
+}
+.backcv1 {
+  background-image: url("http://orig15.deviantart.net/d150/f/2012/098/7/6/secret_agent_pony_by_regolithx-d4vgc93.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.left {
+  margin-left: -100px;
+}
+.photo {
+  position: absolute;
+  float: left;
+  padding: 15px 15px 15px;
+  margin-top: 50px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: rgba(128, 0, 0, 0.21);
+  border-radius: 10px;
+  height: 250px;
+  width: 330px;
+}
+.maphoto {
+  padding: 5px 55px 3px;
+  opacity: 0.7;
+}
+.cont {
+  position: absolute;
+  float: left;
+  padding: 10px 53px 60px;
+  margin-top: 370px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: rgba(128, 0, 0, 0.21);
+  border-radius: 10px;
+}
+.sit {
+  position: absolute;
+  float: left;
+  padding: 20px 30px 150px;
+  margin-top: 610px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: rgba(128, 0, 0, 0.21);
+  border-radius: 10px;
+}
+.pres {
+  position: absolute;
+  float: left;
+  padding: 20px 1px 150px;
+  margin-top: 950px;
+  color: #909090;
+  border-top: 2px solid #373737;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  background: rgba(128, 0, 0, 0.21);
+  border-radius: 10px;
+  width: 330px;
+}
+#xp {
+  width: 900px;
+  box-sizing: border-box;
+  background: rgba(128, 0, 0, 0.21);
+  border-top: 2px solid #444;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  float: left;
+  position: relative;
+  min-height: 840px;
+  padding-left: 20px;
+  margin-top: 48px;
+  margin-bottom: 50px;
+}
+.exper {
+  position: relative;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
+.tra1 {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.tra2 {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.tra3 {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.loisir {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 180px;
+}
+.forma {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 80px 0 20px 0;
+  padding: 15px;
+  height: 210px;
+}
+.compt {
+  position: relative;
+  border-radius: 20px;
+  width: 58%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+}
+.aki {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 150px 0 20px 0;
+  padding: 15px;
+  height: 400px;
+  width: 400px;
+}
+.port {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 20px;
+  margin: 150px 0 20px 0;
+  padding: 15px;
+  height: 400px;
+  width: 400px;
+  opacity: 0.8;
+}
+/*fin cv Abdel-Malik*/
