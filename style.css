@@ -554,19 +554,19 @@ body.cvnadege h1, body.cvnadege h2 {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-.tra3ombin {
+.tra3.tra3ombin {
   height: 250px;
 }
-.formaombin {
+.forma.formaombin {
   height: 260px;
 }
 .sitomb {
   padding: 6px 30px 150px;
 }
-.contomb {
+.cont.contomb {
   padding: 10px 20px;
 }
-.loisiromb {
+.loisir.loisiromb {
   height: 100px;
 }
 .nom {
@@ -587,8 +587,8 @@ div.slyz h3 {
 img {
   max-width: 100%;
 }
-.photomb {
-  padding: 5px 70px;
+.photo.photomb {
+  padding: 0px 50px 0px
 }
 
 /* fin cv adel */
