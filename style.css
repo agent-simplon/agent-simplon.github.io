@@ -361,7 +361,10 @@ body.cv p {
 }
 <<<<<<< HEAD
 /*cvnadege*/
-body.cvnadege h3 body.cvnadege p {
+body.cvnadege h3 {
+  color: #2DCE4B;
+}
+  body.cvnadege p {
   color: black;
 }
 body.cvnadege h1, body.cvnadege h2 {
@@ -372,7 +375,21 @@ body.cvnadege h1, body.cvnadege h2 {
   background-image: url("http://img2.hebus.com/hebus_2008/05/11/preview/080511144251_73.jpg");
   color: black;
 }
-
+.photomba {
+    padding: 15px 15px;
+}
+.maphotonadege {
+    position: absolute;
+    float: left;
+    padding: 10px 10px 10px;
+    margin-top: 50px;
+    color: #909090;
+    border-top: 2px solid #373737;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    background: rgba(128, 0, 0, 0.21);
+    border-radius: 10px;
+}
 
 /*fin cvnadege*/
 =======
