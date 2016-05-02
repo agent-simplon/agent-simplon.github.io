@@ -1,116 +1,130 @@
 <!DOCTYPE html>
-  <html lang="fr">
+<html lang="fr">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="slider.css" />
-    <!-- Menu -->
-    <link rel="stylesheet" type="text/css" href="menu.css" />
-    <!-- fin Menu -->
-    <link href="http://themarklee.com/2013/10/16/simple-crossfading-slideshow-css/" href="style.css">
-    <title>Agent Simplon - Project 0.0.9</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="slider.css" />
+  <!-- Menu -->
+  <link rel="stylesheet" type="text/css" href="menu.css" />
+  <!-- fin Menu -->
+  <link href="http://themarklee.com/2013/10/16/simple-crossfading-slideshow-css/" href="style.css">
+  <title>Agent Simplon - Project 0.0.9</title>
+</head>
+<body>
+  <header>
+    <audio controls autoplay>
+      <source src="james_bond_007_original-4820.mp3">
+    </audio>
 
-  <body>
-    <header>
-        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
 
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-          <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-          <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-        </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-          <div data-p="225.00" style="display: none;">
-            <img data-u="image" src="header-agent-simplon.jpg" />
-            <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">Agent Simplon</div>
-            <div data-u="caption" data-t="0" style="position: absolute; top: 100px; left: 600px; width: 445px; height: 300px;">
-            </div>
-          </div>
-          <div data-p="225.00" style="display: none;">
-            <img data-u="image" src="header-equipe.jpg" />
-          </div>
-          <div data-p="225.00" style="display: none;">
-            <img data-u="image" src="header-agent-simplon.jpg" />
-          </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-          <!-- bullet navigator item prototype -->
-          <div data-u="prototype" style="width:16px;height:16px;"></div>
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
-        <a href="http://www.jssor.com" style="display:none">Bootstrap Carousel</a>
+      <!-- Loading Screen -->
+      <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+        <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
       </div>
-
-      <!-- #endregion Jssor Slider End -->
-    </header>
-    <div class="meni">
-
-      <!-- Equipe -->
-              <nav class="profil">
-                  <img src="img/menu/profil-chef-equipe2.png" alt="profil du chef d'equipe" />
-                 <div class="profil2">
-                     <a href="#presentation"><img src="img/menu/profil1.png" alt="photo de profil" /></a>
-                 </div>
-                 <div class="profil3">
-                     <a href="#presentation"><img src="img/menu/profil2.png" alt="photo de profil" /></a>
-                 </div>
-                 <div class="profil3-bis">
-                     <a href="#presentation"><img src="img/menu/jerome.png" alt="photo de profil" /></a>
-                 </div>
-                 <div class="profil4">
-                     <a href="#presentation"><img src="img/menu/profil.png" alt="photo de profil" /></a>
-                 </div>
-                 <div class="profil5">
-                     <a href="#presentation"><img src="img/menu/profil4.png" alt="photo de profil" /></a>
-                 </div>
-             </nav>
-             <!-- fin equipe -->
-    </div>
-    <div class="presentation">
-      <h1>Notre Equipe</h1>
-      <p> Tout ressenblance avec des personne existant ou ayant exister serait totalement volontaire, chacune de nos mission etant secrete nous n'hesiteront pas a trahir le secret proffessionnel pour vous (apprenti agent) </p>
-      <p> La team des agent de simplon est un groupe crée en 2015 suite a un exès de tristesse dans ce monde. </p>
-      <p>Notre mission:</p>
-      <p> Se servir de no talent cacher, (très cacher)pour faire naitre de belle couleur dans les esprit soporifique, stimuler la joie et la creativiter dans les coeur et bien entendu eviter les crotte de nez.</p>
-      <p> Nos armes:</p>
-      <p> Nos sourire contagieu,nos doigt de fee sur un clavier,un humour dejanté et surtout,surtout beacoup de mouchoir(pour eviter les crottes de nez.)</p>
-      <p> Notre serieux,notre motivation et notre determination font de nous des expert en affaire du genre :</p>
-      <p> Poisson noyer.</p>
-      <p> Reproduction des moustique au venezuela.</p>
-      <p> Invertion de l'apesanteur.</p>
-      <p> Comprehension du carré.</p>
-      <p> Ce qui fait de nous,les leader,les numero un,dans le domaine des affaire sans fin</p>
-      <p> Suite a de nombreuse demande (une c est deja pas mal, nous allons developer notre activiter sur un service d espionnage culinaire:</p>
-      <p> Pourquoi les gateaux magrebin sont si bon .</p>
-      <p> Une question dont personne n'a la reponse.</p>
-      <p> Ci-joint un espace pourque vouq puissier nous faire rever de vos blague et de votre humour(surtout) ou (facultatif)pour toute proposition d emplois (si on est pas fatiguer et motiver)</p>
-      <p> Et bientot grace a vous la section blague d espion sera disponnibles ici même.</p>
-
-    </div>
-
-    <div class="avis-client">
-      <div class="projets">
-        <p id="fz">
-          Nous avons traités plus d'une affaire ! enfin je crois...
-        </p>
-        <p id="fz">
-          Dans plus de 70 pays ! <small style="font-size: 20px;">mais pas sûr sûr...</small>
-        </p>
+      <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+        <div data-p="225.00" style="display: none;">
+          <img data-u="image" src="header-agent-simplon.jpg" />
+          <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">Agent Simplon</div>
+          <div data-u="caption" data-t="0" style="position: absolute; top: 100px; left: 600px; width: 445px; height: 300px;">
+          </div>
+        </div>
+        <div data-p="225.00" style="display: none;">
+          <img data-u="image" src="header-equipe.jpg" />
+        </div>
+        <div data-p="225.00" style="display: none;">
+          <img data-u="image" src="header-agent-simplon.jpg" />
+        </div>
       </div>
+      <!-- Bullet Navigator -->
+      <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+        <!-- bullet navigator item prototype -->
+        <div data-u="prototype" style="width:16px;height:16px;"></div>
+      </div>
+      <!-- Arrow Navigator -->
+      <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+      <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+      <a href="http://www.jssor.com" style="display:none">Bootstrap Carousel</a>
     </div>
 
+    <!-- #endregion Jssor Slider End -->
+  </header>
+  <div class="meni">
 
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
-    <script type="text/javascript" src="slider.js"></script>
-    <script src="menu.js"></script>
-  </body>
+    <!-- Equipe -->
+    <nav class="profil">
+      <img src="img/menu/profil-chef-equipe2.png" alt="profil du chef d'equipe" />
+      <div class="profil2">
+        <a href="#presentation">
+          <img src="img/menu/profil1.png" alt="photo de profil" />
+        </a>
+      </div>
+      <div class="profil3">
+        <a href="#presentation">
+          <img src="img/menu/profil2.png" alt="photo de profil" />
+        </a>
+      </div>
+      <div class="profil3-bis">
+        <a href="#presentation">
+          <img src="img/menu/jerome.png" alt="photo de profil" />
+        </a>
+      </div>
+      <div class="profil4">
+        <a href="#presentation">
+          <img src="img/menu/profil.png" alt="photo de profil" />
+        </a>
+      </div>
+      <div class="profil5">
+        <a href="#presentation">
+          <img src="img/menu/profil4.png" alt="photo de profil" />
+        </a>
+      </div>
+    </nav>
+    <!-- fin equipe -->
+  </div>
+  <div class="presentation">
+    <h1>Notre Equipe:</h1>
+    <p> Toute ressemblance avec des personnes existantes ou ayant existées seraient totalement volontaire, chacunes de nos missions étant secrètes nous n'hésiteront pas à trahir le secret professionnel pour vous (apprenti agent).</p>
+    <p> La team des agents de simplon est un groupe créé en 2015 suite à un excès de tristesse dans ce monde. </p>
+    <p>Notre mission:</p>
+    <p> Se servir de nos talents cachés, (très cachés)pour faire naître de belle couleur dans les esprits soporifiques, stimuler la joie et la créativiter dans les coeurs et bien entendu éviter les crottes de nez.</p>
+    <p> Nos armes:</p>
+    <p> Nos sourires contagieux, nos doigts de fée sur un clavier, un humour dejanté et surtout, surtout beaucoup de mouchoir (pour éviter les crottes de nez.)</p>
+    <p> Notre sérieux, notre motivation et notre détermination font de nous des experts en affaire du genre :</p>
+    <p> Poisson noyé.</p>
+    <p> Reproduction des moustiques au Vénézuéla.</p>
+    <p> Inversion de l'apesanteur.</p>
+    <p> Compréhension du carré.</p>
+    <p> Ce qui fait de nous, les leaders, les numéros un, dans le domaine des affaires sans fin.</p>
+    <p> Suite à de nombreuses demandes (une c'est déjà pas mal !!) nous allons développer notre activité sur un service d'espionnage culinaire:</p>
+    <p> Pourquoi les gateaux maghrebin sont-ils si bons.</p>
+    <p> Une question dont personne n'a la réponse.</p>
+    <p> Ci-joint un espace pour que vous puissiez nous faire partager vos blagues et votre humour ou (facultatif) pour toutes propositions d emplois.</p>
+    <p> De plus grâce à vous la section blague d'espion sera bientôt disponible sur ce site.</p>
 
-  </html>
+  </div>
+
+  <div class="avis-client">
+    <div class="projets">
+      <p id="fz">
+        Nous avons traités plus d'une affaire ! enfin je crois...
+      </p>
+      <p id="fz">
+        Dans plus de 70 pays !
+        <small style="font-size: 20px;">mais pas sûr sûr...</small>
+      </p>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+  <script type="text/javascript" src="slider.js"></script>
+  <script src="menu.js"></script>
+</body>
+
+</html>
